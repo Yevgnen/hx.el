@@ -3,7 +3,7 @@
 
 * Introduction
 
-Poor man's [[https://github.com/helix-editor/helix][helix]] simulation．
+Poor man's [[https://github.com/helix-editor/helix][helix]] simulation for Emacs.
 
 * Usage
 
