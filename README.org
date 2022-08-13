@@ -4,3 +4,10 @@
 * Introduction
 
 Poor man's [[https://github.com/helix-editor/helix][helix]] simulation．
+
+* Usage
+
+#+begin_src elisp
+(require 'hx)
+(hx-mode)                               ; in some buffer
+#+end_src
