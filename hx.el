@@ -4,7 +4,7 @@
 ;; Copyright (C) 2017 Yevgnen Koh
 ;;
 ;; Author: Yevgnen Koh <wherejoystarts@gmail.com>
-;; Version: 1.0.0
+;; Version: 0.0.1
 ;; Keywords:
 
 ;; Package-Requires: (
