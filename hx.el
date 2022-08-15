@@ -590,8 +590,8 @@ User buffers are those not starting with *."
   :keymap hx-goto-mode-map)
 
 (defvar hx-mode-line-format
-  '(:eval (cond (hx-normal-mode " NOM")
-                (hx-insert-mode " INS")
+  '(:eval (cond (hx-normal-mode (propertize " NOM" 'face 'success))
+                (hx-insert-mode (propertize " INS" 'face 'warning))
                 (hx-mode " Hx"))))
 
 ;;;###autoload
