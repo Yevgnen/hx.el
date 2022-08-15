@@ -424,6 +424,7 @@ User buffers are those not starting with *."
     (define-key keymap "gl" #'end-of-line)
     (define-key keymap "gs" #'back-to-indentation)
     (define-key keymap "gd" #'xref-find-definitions)
+    (define-key keymap (kbd "C-o") #'pop-tag-mark)
     (define-key keymap "gr" #'lsp-find-references)
     (define-key keymap "gi" #'lsp-find-implementation)
     (define-key keymap "gy" #'lsp-find-type-definition)
