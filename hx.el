@@ -87,7 +87,7 @@
     (cond ((and symbol-start
                 (= (point) symbol-start))
            (goto-char symbol-end))
-          (t (search-forward-regexp "\\<")))))
+          (t (search-forward-regexp "\\_<")))))
 
 ;;;###autoload
 (defun hx-normal-next-symbol ()
