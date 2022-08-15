@@ -373,7 +373,8 @@ User buffers are those not starting with *."
 (defalias 'w #'save-buffer)
 (defalias 'bc #'kill-current-buffer)
 (defalias 'o #'find-file)
-(defalias 'q #'save-buffers-kill-emacs)
+(defalias 'q #'delete-window)
+(defalias 'q! #'save-buffers-kill-emacs)
 
 (defvar hx-normal-mode-map
   (let ((keymap (make-sparse-keymap)))
