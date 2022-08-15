@@ -394,8 +394,8 @@ User buffers are those not starting with *."
     (define-key keymap "e" #'hx-eval-and-forward)
     (define-key keymap (kbd "C-f") #'scroll-up-command)
     (define-key keymap (kbd "C-b") #'scroll-down-command)
-    (define-key keymap (kbd "C-u") #'View-scroll-half-page-forward)
-    (define-key keymap (kbd "C-d") #'View-scroll-half-page-backward)
+    (define-key keymap (kbd "C-u") #'View-scroll-half-page-backward)
+    (define-key keymap (kbd "C-d") #'View-scroll-half-page-forward)
     ;; Changes
     (define-key keymap "r" #'hx-normal-replace-char)
     (define-key keymap "R" #'yank)
